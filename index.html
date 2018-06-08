@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Encrypted File Upload</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+		<script src="jquery-3.3.1.min.js"></script>
+		<script src="moment.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<div class="upload">
+				<h1>File Upload</h1>
+				<label>
+					Enter Password to Encrypt Files:
+					<input type="password" id="passwd" class="error"/>
+				</label>
+				<hr/>
+				<div class="label">
+					Upload File(s):
+					<input type="file" id="file" data-multi-text="{n} files selected." multiple/>
+					<input type="text" id="fileName" readonly tabindex="-1"/>
+					<div class="buttons">
+						<label class="button" for="file" tabindex="1">Browse...</label>
+						<button id="upload" disabled>UPLOAD</button>
+					</div>
+				</div>
+			</div>
+			<div class="files">
+				<h2>Progress</h2>
+				<div id="template">
+					<div class="row" style="grid-row: 2"></div>
+					<div class="c1" style="grid-row: 2">@date</div>
+					<div class="c2" style="grid-row: 2">@fileName</div>
+					<div class="c3" style="grid-row: 2">
+						<progress max="100"></progress>
+					</div>
+				</div>
+				<div id="fileList">
+					<div class="heading c1">Date</div>
+					<div class="heading c2">Name</div>
+					<div class="heading c3">Progress</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

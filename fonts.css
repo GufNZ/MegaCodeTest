@@ -1,0 +1,72 @@
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-ExtraLight.otf);
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-ExtraLightIt.otf);
+	font-weight: 100;
+	font-style: italic;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-Light.otf);
+	font-weight: 250;
+	font-style: normal;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-LightIt.otf);
+	font-weight: 250;
+	font-style: italic;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-Regular.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-It.otf);
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-Semibold.otf);
+	font-weight: 550;
+	font-style: normal;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-SemiboldIt.otf);
+	font-weight: 550;
+	font-style: italic;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-Bold.otf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-BoldIt.otf);
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-Black.otf);
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: sourceSansPro;
+	src: url(./SourceSansPro/SourceSansPro-BlackIt.otf);
+	font-weight: 900;
+	font-style: italic;
+}
